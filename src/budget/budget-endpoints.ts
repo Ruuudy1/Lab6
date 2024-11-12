@@ -1,5 +1,5 @@
 // src/budget/budget-endpoints.ts
-import { DEFAULT_BUDGET_LIMIT } from '../constants';
+import { DEFAULT_BUDGET_LIMIT } from '../constants/constants';
 
 let budgetLimit = DEFAULT_BUDGET_LIMIT;
 

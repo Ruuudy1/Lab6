@@ -2,7 +2,7 @@ import { Response } from "express";
 import initDB from "./createTable";
 import { createExpenseEndpoints } from "./expenses/expense-endpoints";
 import { createBudgetEndpoints } from "./budget/budget-endpoints";
-import { budget } from "./constants";
+import { budget } from './constants/constants';
 
 const express = require("express");
 const cors = require("cors");
